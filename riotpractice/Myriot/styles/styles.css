@@ -1,0 +1,11 @@
+body {
+    background-image: url("../6883.jpg");
+    background-position: center;
+    font-family: 'Pangolin', cursive;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
