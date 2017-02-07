@@ -14,16 +14,16 @@
         this.member = [
             {
                 name: "Inma",
-                url: "../inma.png"
+                url: "inma.png"
             }, {
                 name: "Grace",
-                url: "../grace.png"
+                url: "grace.png"
             }, {
                 name: "Marleen",
-                url: "../marleen.png"
+                url: "marleen.png"
             }, {
                 name: "Lisa",
-                url: "../lisa.png"
+                url: "lisa.png"
             }
         ];
     </script>
