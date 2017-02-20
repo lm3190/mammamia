@@ -2,7 +2,7 @@
 
 	<div class="contaner">
 	<div class="row">
-	<pre> <strong> Position: </strong> { internPosition } <br> <strong> Company: </strong> { internCompany } <br><strong>  Length of Time at Internship: </strong> { internLength } <br><strong>  Dates </strong> { internDates } </em> <br> <strong> Comments:</strong> { internComments } <br> <strong> Rating: <strong> { rating }</p></pre>
+	<pre> <strong> Position: </strong> { internPosition } <br> <strong> Company: </strong> { internCompany } <br><strong>  Length of Time at Internship: </strong> { internLength } <br><strong>  Dates </strong> { internDates } </em> <br> <strong> Comments:</strong> { internComments } <br> <strong> Rating: <strong> <star></star> <star></star> <star></star> <star></star> <star></star> </p> </pre>
 	</div>
 	</div>
 

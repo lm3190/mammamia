@@ -22,7 +22,11 @@ share it, thanks!<p>
 
 <div>
   <label> How would you rate this internship?
-  <input type="checkbox" ref="rating" value="" onclick={ updateRating }>
+<star></star>
+<star></star>
+<star></star>
+<star></star>
+<star></star>
   </label>
 </div>
 
@@ -50,6 +54,27 @@ share it, thanks!<p>
 		 	this.parent.update();
 		 	this.parent.closeEditor();
 		 };
+
+     // Original
+     this.star = {
+       imageURL: "http://www.clker.com/cliparts/D/5/P/w/5/a/white-star-md.png"
+     };
+
+  //OneClick
+   this.changeStar = function(event){
+     this.star = {
+       imageURL: "https://img.clipartfest.com/fda90d1d445683b867351c046eb073e5_anarchy20clipart-light-pink-stars-clipart-on-transparent-background_298-285.png"
+     }
+   };
+
+  //DoubleClick
+   this.undoStar = function(event){
+     this.star = {
+       imageURL: "http://www.clker.com/cliparts/D/5/P/w/5/a/white-star-md.png"
+     }
+   };
+
+  console.log(this);
 
 
 </script>
