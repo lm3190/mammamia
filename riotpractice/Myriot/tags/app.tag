@@ -4,7 +4,7 @@
 <p>{ imgcaption }</p>
 
 <script>
-this.pics =  "../lisa.png"
+this.pics =  "lisa.png"
 
 this.imgcaption = "No Caption"
 //this.imageurl = ["../lisa.png", "../inma.png"]
