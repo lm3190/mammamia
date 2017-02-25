@@ -1,6 +1,8 @@
 <internapp>
 
-	<button type="button" class="btn btn-success" name="button" onclick={ toggleEditor }>SHARE</button>
+		<h3>Share your experience:</h3>
+	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" onclick={ toggleEditor }>SHARE</button>
+
 
 	<div class="intern-list">
 		<internitem each={ internList }></internitem>
@@ -30,6 +32,7 @@
 					internLength: "Two-months",
 					internDates: "Jan-Mar 2017",
 					internComments: "Great experience, got a job",
+
 				},{
 					internPosition: "Instructional Design Intern",
 					internCompany: "The Lamp",
