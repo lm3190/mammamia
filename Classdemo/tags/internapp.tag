@@ -1,14 +1,21 @@
 <internapp>
 
 		<h3>Share your experience:</h3>
-	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" onclick={ toggleEditor }>SHARE</button>
+	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">SHARE</button>
 
 
 	<div class="intern-list">
 		<internitem each={ internList }></internitem>
 	</div>
 
-	<interneditor if={ creatingInternship }></interneditor>
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<interneditor></interneditor>
+			</div>
+		</div>
+	</div>
+	<!-- <interneditor if={ creatingInternship }></interneditor> -->
 
 	<script>
 		// console.log(this);
