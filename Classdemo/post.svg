@@ -7,43 +7,39 @@
 	.st1{fill:none;stroke:#262A35;stroke-width:6.7078;stroke-miterlimit:10;}
 	.st2{fill:#EDEDED;}
 	.st3{fill:#FFFFFF;}
-	.st4{filter:url(#Adobe_OpacityMaskFilter);}
-	.st5{filter:url(#Adobe_OpacityMaskFilter_1_);}
-	.st6{mask:url(#SVGID_1_);fill:url(#SVGID_2_);}
-	.st7{fill:url(#SVGID_3_);}
-	.st8{fill:none;stroke:#262A35;stroke-width:1.5484;stroke-miterlimit:10;}
-	.st9{fill:#262A35;}
-	.st10{fill:none;}
-	.st11{font-family:'Avenir-Roman';}
-	.st12{font-size:41px;}
-	.st13{font-size:14px;}
+	.st4{clip-path:url(#SVGID_5_);}
+	.st5{clip-path:url(#SVGID_6_);fill:url(#SVGID_7_);}
+	.st6{fill:url(#SVGID_8_);}
+	.st7{fill:none;stroke:#262A35;stroke-width:1.5484;stroke-miterlimit:10;}
+	.st8{fill:#262A35;}
+	.st9{fill:none;}
+	.st10{font-family:'Avenir-Roman';}
+	.st11{font-size:43.4836px;}
+	.st12{font-size:14.8481px;}
 </style>
-<path class="st0" d="M243.8,444L57.2,431.9c-15.1-1-27.1-13.2-28.2-28.6l-20-297.8C7.8,86.2,22.8,69.8,41.7,69.8h316.6
-	c19.6,0,34.7,17.4,32.5,37.3l-35.1,307.3c-1.9,16.9-15.9,29.6-32.5,29.6h-21.5"/>
-<path class="st1" d="M242.8,448L56.2,435.8c-15.1-1-27.1-13.4-28.2-29l-20-301.3C6.8,86,21.8,69.4,40.7,69.4h316.6
-	c19.6,0,34.7,17.7,32.5,37.8l-35.1,310.9c-1.9,17.1-15.9,29.9-32.5,29.9h-21.5"/>
+<path class="st0" d="M250.7,455L60.8,442.2c-15.4-1.1-27.6-14-28.7-30.3L11.8,96c-1.2-20.5,14-37.9,33.3-37.9h322.2
+	c19.9,0,35.3,18.5,33.1,39.6l-35.7,325.9c-1.9,17.9-16.2,31.4-33.1,31.4h-21.9"/>
+<path class="st1" d="M249.7,459.3L59.8,446.3c-15.4-1.1-27.6-14.2-28.7-30.8L10.7,96C9.5,75.3,24.8,57.7,44,57.7h322.2
+	c19.9,0,35.3,18.8,33.1,40.1l-35.7,329.7c-1.9,18.1-16.2,31.7-33.1,31.7h-21.9"/>
 <g>
-	<polygon class="st2" points="357.3,86 40.8,99.5 58.3,402.7 256.7,418.5 238.5,488.1 320.1,412.6 	"/>
-	<polygon class="st3" points="371.9,86.2 55.1,90.8 63.6,395.1 272.9,418.7 255,488.3 335.3,412.8 	"/>
-	<defs>
-		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="62.9" y="89.2" width="313.1" height="395.7">
-			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
-			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
-		</filter>
-	</defs>
-	<mask maskUnits="userSpaceOnUse" x="62.9" y="89.2" width="313.1" height="395.7" id="SVGID_1_">
-		<g class="st4">
+	<polygon class="st2" points="366.3,75.3 44.1,89.6 61.9,411.2 263.9,428 245.3,501.8 328.4,421.7 	"/>
+	<polygon class="st3" points="381.1,75.5 58.7,80.4 67.3,403.2 280.4,428.2 262.1,502 343.9,421.9 	"/>
+	<g>
+		<g>
 			<defs>
-				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="62.9" y="89.2" width="313.1" height="395.7">
-					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
-					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
-				</filter>
+				<polygon id="SVGID_3_" points="3.6,-14.8 4.6,-14.8 3.6,-13.8 				"/>
 			</defs>
-			<mask maskUnits="userSpaceOnUse" x="62.9" y="89.2" width="313.1" height="395.7" id="SVGID_1_">
-				<g class="st5">
-				</g>
-			</mask>
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="343.8322" y1="88.9218" x2="92.0996" y2="369.0395">
+			<defs>
+				<polygon id="SVGID_4_" points="1.6,-16.9 0.6,-16.9 1.6,-18 				"/>
+			</defs>
+			<clipPath id="SVGID_5_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<clipPath id="SVGID_6_" class="st4">
+				<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+			</clipPath>
+			
+				<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="355.6277" y1="518.1475" x2="93.795" y2="226.7907" gradientTransform="matrix(1 0 0 -1 0 600)">
 				<stop  offset="5.102040e-03" style="stop-color:#FFFFFF"/>
 				<stop  offset="8.874961e-02" style="stop-color:#F6F6F6"/>
 				<stop  offset="0.2235" style="stop-color:#DFDFDF"/>
@@ -52,60 +48,36 @@
 				<stop  offset="0.8066" style="stop-color:#3F3F3F"/>
 				<stop  offset="0.9898" style="stop-color:#000000"/>
 			</linearGradient>
-			<polygon class="st6" points="376,89.2 62.9,90.9 67.9,391.7 280.7,415.4 262.5,484.9 337.9,406.2 			"/>
+			<polygon class="st5" points="385.3,78.7 66.6,80.5 71.7,399.5 288.3,424.7 269.8,498.4 346.5,414.9 			"/>
 		</g>
-	</mask>
-	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="343.8322" y1="88.9218" x2="92.0996" y2="369.0395">
+	</g>
+	
+		<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="355.6277" y1="518.1475" x2="93.795" y2="226.7907" gradientTransform="matrix(1 0 0 -1 0 600)">
 		<stop  offset="5.102040e-03" style="stop-color:#E9E9E9"/>
 		<stop  offset="0.5035" style="stop-color:#F2F2F2"/>
 		<stop  offset="0.9898" style="stop-color:#FFFFFF"/>
 	</linearGradient>
-	<polygon class="st7" points="376,89.2 62.9,90.9 67.9,391.7 280.7,415.4 262.5,484.9 337.9,406.2 	"/>
+	<polygon class="st6" points="385.3,78.7 66.6,80.5 71.7,399.5 288.3,424.7 269.8,498.4 346.5,414.9 	"/>
 	<g>
 		<g>
-			<line class="st8" x1="87.6" y1="188.2" x2="171.4" y2="188.2"/>
-			<line class="st8" x1="234.1" y1="188.2" x2="314.3" y2="188.2"/>
-			<ellipse class="st9" cx="201.8" cy="188.2" rx="2.3" ry="2.4"/>
+			<line class="st7" x1="91.8" y1="183.7" x2="177" y2="183.7"/>
+			<line class="st7" x1="240.9" y1="183.7" x2="322.5" y2="183.7"/>
+			<ellipse class="st8" cx="208" cy="183.7" rx="2.3" ry="2.5"/>
 		</g>
 	</g>
-	<polygon class="st9" points="318.2,287 91,287 91.5,376.9 306.8,389.4 	"/>
+	<polygon class="st8" points="326.5,288.5 95.2,288.5 95.7,383.9 314.9,397.1 	"/>
 	<g>
-		<ellipse class="st3" cx="168.3" cy="394.2" rx="3.7" ry="3.9"/>
-		<ellipse class="st3" cx="191.9" cy="394.2" rx="3.7" ry="3.9"/>
-		<ellipse class="st3" cx="215.4" cy="394.2" rx="3.7" ry="3.9"/>
+		<ellipse class="st3" cx="173.9" cy="402.2" rx="3.8" ry="4.1"/>
+		<ellipse class="st3" cx="197.9" cy="402.2" rx="3.8" ry="4.1"/>
+		<ellipse class="st3" cx="221.8" cy="402.2" rx="3.8" ry="4.1"/>
 	</g>
 </g>
-<rect x="120.4" y="135.4" class="st10" width="169" height="60"/>
-<text transform="matrix(1 0 0 1 152.491 166.3907)" class="st11 st12">POST</text>
-<rect x="79.2" y="310.6" class="st10" width="240.2" height="81.2"/>
-<text transform="matrix(1 0 0 1 93.4473 321.1882)"><tspan x="0" y="0" class="st3 st11 st13">Post a CMLTD Internship or share </tspan><tspan x="4" y="16.8" class="st3 st11 st13">your internship experiences with </tspan><tspan x="11.3" y="33.6" class="st3 st11 st13">other students in the program </tspan></text>
-<image style="overflow:visible;" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-AAOcAAADnAFum6FOAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAftQTFRF
-////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5jaF1gAA
-AKh0Uk5TAAECAwQFBwgJCgsMDQ4PERITFBUWGRobHB0fICIkJSYnKCwtLi8wMTI2Nzg5Ojw+P0BC
-Q0VGR0hKTk9QUlNWWF1eX2BhYmVnaGprbm9xdHV2d3h5ent+gIGDhI6PkZKVl5iZnZ6foKGkpqip
-q62ur7Cxtri6u7zBwsPExsfKzM3Oz9DS1dbX2Nna293e3+Dh4uXm6Onq6+3u7/Dx8vP09fb4+fr7
-/P3+S5QSKQAAAvpJREFUeNrtludbE0EQh4cQQg8iNqxRwQAaBRsqYAO72FDEgt2AohgEUQlIUVFR
-YglVNEJI+zPF27vcbuAhj5vAfJnfx/d2Z99sZvcOgEKhUCiUKLnUurCJKvA4tLAhARIgARIgARIg
-ARIgARIgAbDPk/rFEJjvoXsugdG21uFINt3ztD8QCb+1tP2OZJ4Ohys2gUdr//0vqxt4NrjPNMPS
-j45xzFeXM8OMRe38wI4CwwzMvuKVFpio0Fpjv77awwyVLX8RZp8KVGao8WsscM6gwrz3sgJH9OY8
-qLHXhjDL0LbXu0kfeF0beENnlkk5gRb+eDQx9mcdx3YGGazhmEn9uR+SOVgtJ2DjBbYwZhcObRfr
-SRPPKtnAUzxLnJQR8KfyNYysxmlB4I7CegW2mc0uEmCnjMA78YpyKrBQYMcVdl9gxinFPlmAt2UE
-vogCvQosFtgZdlYFlqKcg6BZgA+keiBLqOtT2Hmhrp31m8AK2eQSAfZJCezlS+xgrFmoyzo+KJie
-ZQMv8izNJyXQbeT62KleL9u5ulXqwHscyx5ibGQZB+slL6JavcQFjQ3oZyN3Yo69atQYt1clQUkB
-/7UktbNrw3sY6tyglrUNhNm4dmeam/TZjdo/c2hU/mXUV54LsPLAG55NXrYmQartpvA+dOxeArDx
-xCDPvh+zJEDWriexvY5Dw+7ZI6c++2fDr0Oz2S9XzN8DcQ4JkAAJkAAJkAAJkAAJkAAJRBXIL41D
-WiMKO/VHUQXikrQusbCDe7YoArD0o5TAWElsydSXWfNDRiDWbOXWyfuJLADFU8gCUB5AFoCT2AJw
-FVsA7mILGJqRBSD5JbIAmN8iC8AKF7IAWEaQBaDQgywApdPIAnC4GVkArNgCQAJcyrTcipj9vCzm
-ZP3Xd2OluP6rFFjkiALdmYAq0J8DqAKuVYAq4F4PqALj+YAq4NkGqALePYAq4K8AVIFgFeAKVAOu
-QB3gCtQDrkBDAq7As0RAFWg3oa4P1nSgUCgUCgUjfwFz0GWA8VD3UQAAAABJRU5ErkJggg==" transform="matrix(0.4705 0 0 0.4531 165 209)">
+<rect x="125.1" y="127.7" class="st9" width="172" height="63.6"/>
+<text transform="matrix(0.9596 0 0 1 157.8008 160.5928)" class="st10 st11">POST</text>
+<rect x="83.2" y="313.5" class="st9" width="244.5" height="86.1"/>
+<text transform="matrix(0.9596 0 0 1 97.7071 324.7676)" class="st3 st10 st12">Post a CMLTD Internship or share </text>
+<text transform="matrix(0.9596 0 0 1 101.7784 342.585)" class="st3 st10 st12">your internship experiences with </text>
+<text transform="matrix(0.9596 0 0 1 109.2081 360.4033)" class="st3 st10 st12">other students in the program </text>
+<image style="overflow:visible;enable-background:new    ;" width="128" height="128" xlink:href="CD923FDD9AD4004B.png"  transform="matrix(0.4789 0 0 0.4805 170.5323 205.7814)">
 </image>
 </svg>
