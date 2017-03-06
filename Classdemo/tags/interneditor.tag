@@ -46,7 +46,8 @@
 			};
 
 			this.parent.internList.push(newInternship);
-			this.parent.update();
+
+			// this.parent.update();
 			this.parent.closeEditor();
 		};
 
