@@ -9,28 +9,16 @@
       <th style="width:40%;">Dates</th>
     </tr>
     <tr>
-      <td>UX Intern</td>
-      <td>Google</td>
-      <td>Jan-Mar 2017</td>
-    </tr>
-    <tr>
-      <td>Instructional Design Intern</td>
-      <td>The Lamp</td>
-      <td>June-July 2017</td>
-    </tr>
-    <tr>
-      <td>Graphic Design Intern</td>
-      <td>La La Land Group</td>
-      <td>August-September 2017</td>
-    </tr>
-    <tr>
-      <td>Programming Intern</td>
-      <td>Amazon</td>
-      <td>September-December 2017</td>
+      <td>{internPosition}</td>
+      <td>{internCompany}</td>
+      <td>{internDates}</td>
     </tr>
   </table>
 
 <script>
+
+console.log(this);
+
 
   //Search Bar function
   this.search = function(event) {
