@@ -15,7 +15,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- <interneditor if={ creatingInternship }></interneditor> -->
+
+	<%-- // <interneditor if={ creatingInternship }></interneditor>  --%>
 
 	<script>
 		// console.log(this);
