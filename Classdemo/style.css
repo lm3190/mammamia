@@ -96,3 +96,52 @@ p {
     /* Add a grey background color to the table header and on hover */
     background-color: #f1f1f1;
 }
+div.box {
+  border-color: #3b948b;
+    border-width: 10px;
+    border-style: solid;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 0px;
+    width: 500px;
+    height: 550px;
+    font-family: sans-serif, #3b948b;
+    background-color: white;
+    padding: 20px;
+    marging: 25px;
+}
+
+div.scrollableInfo {
+    background color: lightgrey;
+    width: 450px;
+    height: 500px;
+    font-family: sans-serif;
+    overflow: scroll;
+}
+
+#sectionName {
+    border width: thin;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#sections {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    marging: 15px;
+}
+
+.section {
+    border-top-right-radius: 2em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 0px;
+    height: 200px;
+    width: 450px;
+    text-align: center;
+    padding: 10px;
+    marging: 15px;
+    margin-top: 10px;
+}
