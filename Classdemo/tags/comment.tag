@@ -1,34 +1,41 @@
 <comment>
 
-	<h4>{ user.name }</h4>
+<question each={ questionData }></question>
 
-	<navbar userfirst={ user.first } userlast={ user.last }></navbar>
-	<profile userdata={ user }></profile>
+	<div class="form-group">
+
+		<input type="form-control" type="text" placeholder="Your Question" onekeypress-{ addQuestion }>
+	</div>
 
 	<script>
-		console.log('app.tag');
-		this.user = {
-			first: "Anonymous",
-			last: ""
-		};
+var that = this;
 
-		this.getUserFromDB = function(event) {
-		  setTimeout(function(){
+this.questionData = [{
+	question: "Does anyone know if Seasme Workshop Internships are any good?",
+	answer: "Yes, I you can call them for an informational interview if you are not sure",
+}];
 
-				this.user = {
-					first: "Jin",
-					last: "Kuwata"
-				};
-				console.log('data received');
-				this.update();
+addItem(event){
+	var newTask = {};
+	if (event.which === 13) {
+		newTask.task = event.target.value;	// Grab the user task value
+		newTask.done = false;
 
-		  }.bind(this), 1500);
+		this.fakeData.push(newTask);	// Pushes new task item to the fakeData list
 
-			console.log('getUserFromDB was called()');
-		};
+		event.target.value = "";	// RESET INPUT
+		event.target.focus();			// FOCUS BACK ON INPUT
+	}
+}
 
-		this.getUserFromDB();
+removeItems(event){
+	this.fakeData = this.fakeData.filter(function(item) {
+		return !item.done;
+	});
+}
 
+onlyDone(item) {	// Iterator function for the Array.filter(iterator) method...
+	return item.done === true;
 	</script>
 
 	<style>

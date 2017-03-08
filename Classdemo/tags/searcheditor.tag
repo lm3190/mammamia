@@ -4,7 +4,7 @@
 		<h3>Please add your internship</h3>
 	</div>
 	<div class="modal-body">
-		<table id="myTable">
+		<table class="myTable">
 			<tr class="header">
 				<th style="width:40%;">Position</th>
 				<th style="width:20%;">Company</th>
