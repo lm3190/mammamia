@@ -1,0 +1,29 @@
+body {
+  background-color: #dddfd4;
+}
+
+h1, h2, h3, h4 {
+  color: #173e43;
+
+}
+
+p {
+  font-size: 18px;
+
+}
+#iqintro {
+  margin-left: 80px;
+
+}
+
+.posting-panel {
+padding: 10px;
+margin-top: 0;
+margin-left: 50px;
+  width: 600px;
+}
+
+#hints {
+float: right;
+  background-color: #148F77;
+}

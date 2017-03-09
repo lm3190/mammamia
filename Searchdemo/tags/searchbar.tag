@@ -2,7 +2,7 @@
 
   <input type="text" id="myInput" onkeyup= { search } placeholder="Search for positions..">
 
-  <table class="myTable">
+  <table id="myTable">
     <tr class="header">
       <th style="width:40%;">Position</th>
       <th style="width:20%;">Company</th>

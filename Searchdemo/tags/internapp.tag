@@ -35,32 +35,6 @@
 			that.update();
 		};
 
-		addItem(event){
-			var newTask = {};
-			if (event.which === 13) {
-				newTask.task = event.target.value;	// Grab the user task value
-				newTask.done = false;
-
-				this.fakeData.push(newTask);	// Pushes new task item to the fakeData list
-
-				event.target.value = "";	// RESET INPUT
-				event.target.focus();			// FOCUS BACK ON INPUT
-
-
-		var key= firebase.database().ref('todo').push().key;
-		firebase.database().ref('todos/' + key).set(newTask);
-		}
-		}
-		removeItems(event){
-			this.fakeData = this.fakeData.filter(function(item) {
-				return !item.done;
-			});
-		}
-
-		onlyDone(item) {	// Iterator function for the Array.filter(iterator) method...
-			return item.done === true;
-		}
-
 
 		this.internList = [{
 			internPosition: "UX Intern",

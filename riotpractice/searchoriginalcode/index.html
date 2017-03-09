@@ -8,6 +8,7 @@
 	<title>InternQuest</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="templatestyles.css">
 	</head>
 <body>
 
@@ -20,7 +21,7 @@
 </ul>
 		<form class="navbar-form navbar-right">
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
+				 <input type="text" class="form-control" placeholder="Search">
 			</div>
 			<button type="submit" class="btn btn-default">Submit</button>
 		</form>
@@ -40,31 +41,61 @@
 </div>
 	</div>
 
-
 	<div class="container">
-	<searchbartemplate></searchbartemplate>
+		<div class="row">
+			<div class="col-md-7">
+				<p>Welcome to <em> Intern Quest (IQ)</em> a place to search, post and connect with Teachers College, Columbia University, Communication, Media, Learning Technologies Design (CMLTD) program students.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<section id="iqintro">
+	<div class="container-fluid">
+		<div class="row">
+<div class="col-md-3">
+	<a href="search/index.html"><img src="search.svg" alt=""></a></div>
+<br>
+<div class="col-md-3">
+	<img src="post.svg" alt=""></div>
+
+<div class="col-md-3">
+	<img src="connect.svg" alt="">
+
+</div>
+		</div>
+	</div>
+	</section>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4">
+<div class="posting-panel">
+	<div class="panel panel-default">
+  <div class="panel-heading">Recent Internship Postings</div>
+  <div class="panel-body"><internapp></internapp></div>
+</div>
+</div>
+	</div>
+<div class="row">
+		<div id="hints" class="col-sm-5">
+	<h2>HELPFUL TIPS AS YOU START YOUR INTERNSHIP SEARCH</h2>
+</div>
+</div>
+</div>
 </div>
 
-
-	<!--<div class="searchbar">
-		<div class="container-fluid">
-			<h3>Search by positions:</h3>
-	<searchbar></searchbar>
-	</div>
-		</div>-->
-
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-			<script src="tags/searchbartemplate.tag" type="riot/tag"></script>
-			<script src="tags/searcheditor.tag" type="riot/tag"></script>
-			<script src="tags/searchbar.tag" type="riot/tag"></script>
-
+		<script src="tags/internapp.tag" type="riot/tag"></script>
+				<script src="tags/internitem.tag" type="riot/tag"></script>
+			<script src="tags/interneditor.tag" type="riot/tag"></script>
+			<script src="tags/star.tag" type="riot/tag"></script>
 
 			<script>
 				riot.mount('*');
+
 			</script>
 
 </body>
