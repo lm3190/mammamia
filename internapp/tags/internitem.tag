@@ -1,6 +1,6 @@
 <internitem>
 
-	<div class="contaner">
+	<div class="container">
 	<div class="row">
 	<pre> <strong> Position: </strong> { internPosition } <br> <strong> Company: </strong> { internCompany } <br><strong>  Length of Time at Internship: </strong> { internLength } <br><strong>  Dates: </strong> { internDates } <br> <strong> Comments:</strong> { internComments } <br> <strong> Rating: </strong> </pre>
 	</div>

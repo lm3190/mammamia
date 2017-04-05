@@ -29,10 +29,15 @@
         var that = this;
         this.internList = [];
         var database = firebase.database();
+				var internRef = database.ref('internList');
 
-      
+
         this.addInternship = function (event) {
-            var newInternship = {
+
+						var key = internRef.push().key;
+
+						var newInternship = {
+								id: key,
                 internPosition: this.refs.positionIntern.value,
                 internCompany: this.refs.companyIntern.value,
                 internLength: this.refs.internDate.value,
@@ -40,13 +45,14 @@
                 internComments: this.refs.commentsIntern.value
             };
 
-            this.internList.push(newInternship);
+            internRef.child(key).set(newInternship);
+
             this.parent.update();
             this.parent.closeeditor();
-
-            var internListRef = database.ref('internList');
-            var newKey = internListRef.push().key;
-            internListRef.child(newKey).set(newInternship);
+						//
+            // var internListRef = database.ref('internList');
+            // var newKey = internListRef.push().key;
+            // internListRef.child(newKey).set(newInternship);
 
         };
     </script>
