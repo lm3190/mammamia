@@ -11,12 +11,12 @@
 	<div id="myModal" ref="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<interneditor></interneditor>
+				<!-- <interneditor></interneditor> -->
 			</div>
 		</div>
 	</div>
 
-	<%-- // <interneditor if={ creatingInternship }></interneditor>  --%>
+<interneditor if={ creatingInternship }></interneditor>
 
 	<script>
 		// console.log(this);

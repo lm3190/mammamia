@@ -57,7 +57,7 @@
 		<div class="container">
 			<div class="row">
 				<ul class="flex-container">
-					<li class="flex-item" >
+					<li class="flex-item">
 						<a role="button" href="search.html">SEARCH</a><span class="glyphicon glyphicon-search" aria-hidden="true"></span></li>
 					<li class="flex-item" role="button"><a href="search.html">SHARE</a>
 						<br><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></li>
@@ -151,30 +151,33 @@ WHERE TO LOOK
 			</div>
 
 		</div>
+		<internapp></internapp>
 	</section>
 
 
-	<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
 	<script>
-	  // Initialize Firebase
-	  var config = {
-	    apiKey: "AIzaSyAspDT5zReDxWMVsmEcWeFv4hpCcey-ZPA",
-	    authDomain: "intern-quest.firebaseapp.com",
-	    databaseURL: "https://intern-quest.firebaseio.com",
-	    storageBucket: "intern-quest.appspot.com",
-	    messagingSenderId: "7795348277"
-	  };
-	  firebase.initializeApp(config);
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBxcih5hhuJdfNY7u5_wPDpR6czdWdw18U",
+			authDomain: "test-project-99429.firebaseapp.com",
+			databaseURL: "https://test-project-99429.firebaseio.com",
+			projectId: "test-project-99429",
+			storageBucket: "test-project-99429.appspot.com",
+			messagingSenderId: "538557702064"
+		};
+		firebase.initializeApp(config);
 	</script>
-	<script src="https://cdn.jsdelivr.net/riotgear/latest/rg.min.js"></script>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="tags/internapp.tag" type="riot/tag"></script>
-			<script src="tags/internitem.tag" type="riot/tag"></script>
-		<script src="tags/interneditor.tag" type="riot/tag"></script>
+	<script src="tags/internitem.tag" type="riot/tag"></script>
+	<script src="tags/interneditor.tag" type="riot/tag"></script>
+	<script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		riot.mount('*');
+	</script>
 
 </body>
 
