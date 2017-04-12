@@ -1,7 +1,12 @@
 <internapp>
+	<div class="container">
+		<div class="row">
 
-	<button type="button" class="btn btn-success" name="button" onclick={ toggleeditor }>SHARE
-	</button>
+	<span id="share">Share your experience here:</span>
+<button class="c-button--success u-xlarge c-button--rounded" onclick={ toggleeditor }>SHARE</button>
+
+		</div>
+	</div>
 
 	<internitem each={ internshipList }></internitem>
 
@@ -28,7 +33,7 @@
 					that.internshipList = dataAry;
 					that.update();
 				});
-				
+
 		this.addInternship = false;
 
 		this.toggleeditor = function (event) {
@@ -45,10 +50,14 @@
 
 	<style>
 		:scope {
+
 			display: block;
 
 		}
 
+#share {
+font-size: 20pt;
+}
 	</style>
 
 </internapp>
