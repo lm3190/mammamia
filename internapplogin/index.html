@@ -17,7 +17,7 @@
 
 	<div class="container-fluid">
 		<h1>INTERNQUEST </h1>
-		<p><em> Look, Find, and Share Internships and Internship Experiences.  </em></p>
+		<p><em> Let the internship be an adventure not the search.  </em></p>
 	</div>
 
 
@@ -42,19 +42,20 @@
 		<h3>Share your experience:</h3>
 <internapp></internapp>
 </div>
+
 	</div>-->
 
 
-	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
 	<script>
 		// Initialize Firebase
 		var config = {
-			apiKey: "AIzaSyBxcih5hhuJdfNY7u5_wPDpR6czdWdw18U",
-			authDomain: "test-project-99429.firebaseapp.com",
-			databaseURL: "https://test-project-99429.firebaseio.com",
-			projectId: "test-project-99429",
-			storageBucket: "test-project-99429.appspot.com",
-			messagingSenderId: "538557702064"
+			apiKey: "AIzaSyBbV4mssx5uy1-H98d3-C3zA_CudxBXhcM",
+			authDomain: "internquest-88028.firebaseapp.com",
+			databaseURL: "https://internquest-88028.firebaseio.com",
+			projectId: "internquest-88028",
+			storageBucket: "internquest-88028.appspot.com",
+			messagingSenderId: "791714585239"
 		};
 		firebase.initializeApp(config);
 	</script>
@@ -62,14 +63,15 @@
 	<script src="tags/login.tag" type="riot/tag"></script>
 	<script src="tags/home.tag" type="riot/tag"></script>
 	<!--<script src="tags/members.tag" type="riot/tag"></script>-->
-	<script src="tags/searchapp.tag" type="riot/tag"></script>
-	<script src="tags/searchitem.tag" type="riot/tag"></script>
-	<script src="tags/searcheditor.tag" type="riot/tag"></script>
+	<script src="tags/internapp.tag" type="riot/tag"></script>
+	<script src="tags/internitem.tag" type="riot/tag"></script>
+	<script src="tags/interneditor.tag" type="riot/tag"></script>
 	<script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script>
 		var user = null;
+
 		riot.mount('*');
 	</script>
 

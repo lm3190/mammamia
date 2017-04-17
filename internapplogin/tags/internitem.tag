@@ -1,4 +1,4 @@
-<searchitem>
+<internitem>
 
 	<div class="container">
 	Author: { author }
@@ -28,4 +28,4 @@
 			}
 
 	</style>
-</searchitem>
+</internitem>

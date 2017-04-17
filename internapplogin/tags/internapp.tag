@@ -1,5 +1,10 @@
 <internapp>
 
+<h2><img src={ userPhotoURL }> Hi { user.displayName } - MEMBERS ONLY</h2>
+<p>This page is showing because user is defined through the auth callback.</p>
+
+<br>
+
 	<button type="button" class="btn btn-success" name="button" onclick={ toggleeditor }>SHARE
 	</button>
 
@@ -8,31 +13,19 @@
 	<interneditor if={ addInternship }></interneditor>
 
 	<script>
+		this.userPhotoURL = "http://placehold.it/50x50";
+
 		console.log('internapp.tag');
 		var that = this;
 
 		this.internshipList = [];
 
-		var internRef = firebase.database().ref('/internList');
+		var internRef = firebase.database().ref().child('internList');
 
-<<<<<<< HEAD
-
-				internRef.on('value', function (snapshot) {
-					var data = snapshot.val();
-					var dataAry;
-					if (data === null) {
-						dataAry = [];
-					} else {
-						dataAry = Object.values(data);
-					}
-
-					that.internshipList = dataAry;
-					that.update();
-				});
-				
-=======
-		internRef.once('value', function(snapshot) {
+		internRef.on('value', function(snapshot) {
 		  var data = snapshot.val();
+			console.log("snapshot.val");
+			console.log(snapshot.val());
 			var dataAry = Object.values(data);
 			that.internshipList = dataAry;
 			that.update();
@@ -42,7 +35,6 @@
 
 
 
->>>>>>> 619b35c592671e2fdcd89508582a224490d34bb6
 		this.addInternship = false;
 
 		this.toggleeditor = function (event) {
@@ -54,7 +46,7 @@
 			that.update();
 		};
 
-
+		// this.internlist = []; //equvi to todosdata
 	</script>
 
 	<style>

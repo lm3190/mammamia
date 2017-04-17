@@ -1,4 +1,4 @@
-<searcheditor>
+<interneditor>
 
   <!--<div>
 		<internitem each={ internList }></internitem>
@@ -106,4 +106,4 @@ internList
         }
 
     </style>
-</searcheditor>
+</interneditor>

@@ -6,7 +6,7 @@
 	</h1>
 
 	<home if={ !user }></home>
-	<searchapp if={ user }></searchapp>
+	<internapp if={ user }></internapp>
 
 	<script>
 		var that = this;

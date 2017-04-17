@@ -5,7 +5,7 @@
 
 
 	<h2 class="page-header">PUBLIC CONTENT</h2>
-
+	<!--<internapp></internapp>-->
 
 	<script>
 		var that = this;
