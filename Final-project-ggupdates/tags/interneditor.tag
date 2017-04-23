@@ -25,7 +25,16 @@
       <div class="row">
           <input type="text" ref="internTime" placeholder="Enter when" value="" class="col-md-4"></div><br>
       <textarea ref="commentsIntern" placeholder=" Your comments here" value="" rows="8" cols="80"></textarea>
-      <div class="row"></div>
+<div class="container">
+      <div class="row">
+        <span>How would you rate this internship?</span>
+            <star></star>
+            <star></star>
+            <star></star>
+            <star></star>
+            <star></star>
+</div>
+      </div>
             </div>
 
       <footer class="c-card__footer">
@@ -64,6 +73,7 @@
                 internLength: this.refs.internDate.value,
                 internDates: this.refs.internTime.value,
                 internComments: this.refs.commentsIntern.value,
+                starRating: this.refs.ratingStar.value,
                 createdAt: firebase.database.ServerValue.TIMESTAMP,
 					      modifiedAt: firebase.database.ServerValue.TIMESTAMP
 				};

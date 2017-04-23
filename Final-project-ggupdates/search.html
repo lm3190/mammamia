@@ -9,27 +9,33 @@
 	<title>Intern Quest</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://unpkg.com/blaze">
+	<link rel="stylesheet" href="blaze.min.css">
 
 </head>
 
 <body>
+	<ul class="c-nav c-nav--inline">
+    <li class="c-nav__item"><a href="index.html">Home</a></li>
+    <li class="c-nav__item"><a href="search.html">Search</a></li>
+  <li class="c-nav__item"><a href="share.html">Share</a></li>
+		  </ul>
 
 	<div class="container-fluid">
-		<h1>INTERNQUEST </h1>
-		<p><em> Let the internship be an adventure not the search.  </em></p>
+		<h1>INTERN-QUEST </h1>
+		<p><em> Look, Find, and Share Internships and Internship Experiences. </em></p>
 	</div>
 
 
 	<div class="container">
-		<h1>INTERNSHIP POSTINGS FOR CMLTD STUDENTS</h1>
+		<h1>INTERNSHIPS FOR CMLTD STUDENTS</h1>
+<h5>Are you a CMLTD student looking for an internship opportunity? </h5> <h5> Tired of weeding through hundreds of job listings that have no relevance to the CMLTD field? If so, Intern-quest is here to help. </h5> <h5> This internship posing board is specifically aimed at providing access to listings for students in the Communication, Media, and Learning Technology Design Department at Teachers College. Feel free to add post and share internships with your fellow students.</h5>
 	</div>
 
 	<!-- BOOTSTRAP Things -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<!-- RIOT STUFF STARTS HERE -->
+
 				<internpostapp></internpostapp>
 
 				<!--<login></login>-->
@@ -39,13 +45,6 @@
 	</div>
 
 
-	<!--<div class="internshipExperience">
-	<div class="container-fluid">
-		<h3>Share your experience:</h3>
-<internapp></internapp>
-</div>
-
-	</div>-->
 
 
 	<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
@@ -65,6 +64,7 @@
 	<!--<script src="tags/login.tag" type="riot/tag"></script>-->
 	<!--<script src="tags/home.tag" type="riot/tag"></script>-->
 	<!--<script src="tags/members.tag" type="riot/tag"></script>-->
+		<script src="tags/star.tag" type="riot/tag"></script>
 	<script src="tags/internpostapp.tag" type="riot/tag"></script>
 	<script src="tags/internpostitem.tag" type="riot/tag"></script>
 	<script src="tags/internposteditor.tag" type="riot/tag"></script>

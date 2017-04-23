@@ -1,6 +1,6 @@
 <star>
 
-<img src={ star.imageURL } onclick={ changeStar } ondblclick= { undoStar }/>
+<img ref="ratingStar" src={ star.imageURL } onclick={ changeStar } ondblclick= { undoStar }/>
 
 	<script>
 

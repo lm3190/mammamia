@@ -1,11 +1,10 @@
 <internpostapp>
 
-<!-- <h2><img src={ userPhotoURL }> Hi { user.displayName } - MEMBERS ONLY</h2>
-<p>This page is showing because user is defined through the auth callback.</p> -->
+
 
 <br>
 
-	<button type="button" class="btn btn-success" name="button" onclick={ toggleeditor }>SHARE
+	<button type="button" class="btn btn-success" name="button" onclick={ toggleeditor }>POST INTERNSHIP
 	</button>
 
 	<table class="c-table c-table--clickable">

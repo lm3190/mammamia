@@ -8,31 +8,42 @@
       <th style="width:20%;">Company</th>
       <th style="width:40%;">Dates</th>
     </tr>
-    <tr>
-      <td>UX Intern</td>
-      <td>Google</td>
-      <td>Jan-Mar 2017</td>
-    </tr>
-    <tr>
-      <td>Instructional Design Intern</td>
-      <td>The Lamp</td>
-      <td>June-July 2017</td>
-    </tr>
-    <tr>
-      <td>Graphic Design Intern</td>
-      <td>La La Land Group</td>
-      <td>August-September 2017</td>
-    </tr>
-    <tr>
-      <td>Programming Intern</td>
-      <td>Amazon</td>
-      <td>September-December 2017</td>
-    </tr>
   </table>
+  <button type="button" name="Add" onclick={ toggleEditor }>ADD INTERNSHIP</button>
 
-  <button type="button" name="Add" onclick={ toggleEditor }>Add Internship</button>
+<div class="row">
+<input type="text" ref="positionIntern" placeholder="Enter position" value="" class="col-md-4" >
+<input type="text" ref="companyIntern" placeholder="Enter company" value="" class="col-md-4" >
+  <input type="text" ref="internDate" placeholder="Enter length" value="" class="col-md-4" >
+
+</div>
+
+<button class="btn btn-primary" type="button" onclick={ addinternship }>Submit</button>
+<button class="btn btn-danger"type="button" onclick={ parent.closeEditor }>CANCEL</button>
+
+
+</div>
+</div>
+
 
 <script>
+		console.log(this);
+
+	 this.addinternship = function(event) {
+			var newInternship = {
+			internPosition: this.refs.positionIntern.value,
+				internCompany: this.refs.companyIntern.value,
+		 		internLength: this.refs.internDate.value,
+	       internDates: this.refs.internTime.value,
+         internComments: this.refs.commentsIntern.value,
+		 	};
+
+
+		 	this.parent.internList.push(newInternship);
+		 	this.parent.update();
+		 	this.parent.closeEditor();
+		 };
+
 
   //Search Bar function
   this.searchInternship = function(event) {

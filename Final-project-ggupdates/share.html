@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Intern Quest</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="blaze.min.css">
-  <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="blaze.min.css">
+	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-	</head>
+</head>
+
 <body>
-  <ul class="c-nav c-nav--inline">
-    <li class="c-nav__item"><a href="index.html">Home</a></li>
-    <li class="c-nav__item"><a href="search.html">Search</a></li>
-  </ul>
+	<ul class="c-nav c-nav--inline">
+		<li class="c-nav__item"><a href="index.html">Home</a></li>
+		<li class="c-nav__item"><a href="search.html">Search</a></li>
+		<li class="c-nav__item"><a href="share.html">Share</a></li>
+	</ul>
 
-<div class="container-fluid">
-	<h1>INTERNQUEST </h1>
-		<p><em> Look, Find, and Share Internships and Internship Experiences.   </em></p>
-</div>
-
-
-
-
-<div class="internshipExperience">
 	<div class="container-fluid">
-    <h2>Student Internship Experiences</h2>
+		<h1>INTERNQUEST </h1>
+		<p><em> Look, Find, and Share Internships and Internship Experiences.   </em></p>
+	</div>
 
-<login></login>
-<!-- <internapp></internapp> -->
-</div>
+
+
+
+	<div class="internshipExperience">
+		<div class="container-fluid">
+			<h2>Student Internship Experiences</h2>
+
+			<login></login>
+			<!-- <internapp></internapp> -->
+		</div>
 
 
 
@@ -41,31 +44,30 @@
 
 	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
 	<script>
-	  // Initialize Firebase
-	  var config = {
-	    apiKey: "AIzaSyBxcih5hhuJdfNY7u5_wPDpR6czdWdw18U",
-	    authDomain: "test-project-99429.firebaseapp.com",
-	    databaseURL: "https://test-project-99429.firebaseio.com",
-	    projectId: "test-project-99429",
-	    storageBucket: "test-project-99429.appspot.com",
-	    messagingSenderId: "538557702064"
-	  };
-	  firebase.initializeApp(config);
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBxcih5hhuJdfNY7u5_wPDpR6czdWdw18U",
+			authDomain: "test-project-99429.firebaseapp.com",
+			databaseURL: "https://test-project-99429.firebaseio.com",
+			projectId: "test-project-99429",
+			storageBucket: "test-project-99429.appspot.com",
+			messagingSenderId: "538557702064"
+		};
+		firebase.initializeApp(config);
 	</script>
-
+	<script src="tags/star.tag" type="riot/tag"></script>
 	<script src="tags/login.tag" type="riot/tag"></script>
-<script src="tags/home.tag" type="riot/tag"></script>
-		<script src="tags/internapp.tag" type="riot/tag"></script>
-				<script src="tags/internitem.tag" type="riot/tag"></script>
-			<script src="tags/interneditor.tag" type="riot/tag"></script>
-			<script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.js"></script>
-			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<script>
-					var user = null;
-				riot.mount('*');
-
-			</script>
+	<script src="tags/home.tag" type="riot/tag"></script>
+	<script src="tags/internapp.tag" type="riot/tag"></script>
+	<script src="tags/internitem.tag" type="riot/tag"></script>
+	<script src="tags/interneditor.tag" type="riot/tag"></script>
+	<script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+		var user = null;
+		riot.mount('*');
+	</script>
 
 
 </body>

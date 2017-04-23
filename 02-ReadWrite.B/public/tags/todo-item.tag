@@ -1,4 +1,4 @@
-<internitem>
+<todo-item>
 
 	<div class="contaner">
 	<div class="row">
@@ -6,23 +6,27 @@
 	</div>
 	</div>
 
+
+
+
+
+
 	<script>
-		console.log(this);
+		var that = this;
 
-
+		toggle(event) {
+			event.item.done = !event.item.done;
+			this.parent.update();
+		}
 	</script>
 
 	<style>
-
-		:scope
-
-		pre {
-
-			  display: block;
-			  max-width: 700px;
-			margin: 20px;
-			border: 5px solid grey;
-			}
-
+		:scope {
+			display: block;
+		}
+		.completed {
+			text-decoration: line-through;
+			color: silver;
+		}
 	</style>
-</internitem>
+</todo-item>
