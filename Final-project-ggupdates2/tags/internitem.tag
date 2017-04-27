@@ -23,22 +23,8 @@
 	this.internshipList = [];
 
 	var database = firebase.database();
-	//not sure about the internList/users/ reference point - should it be something else?
-	var internRef = database.ref('internList/users/' + user.uid);
 
-	internRef.on('value', function(snapshot) {
-		var experienceData = snapshot.val();
-
-		// commentsData could be null (no results), then we cant get values -> error
-		if (experienceData) {
-			that.internshipList = Object.values(experienceData);
-		} else {
-			that.internshipList = [];
-		}
-		that.update();
-	});
-
-
+//event.item is referring to the item object that is within the event function we're calling - then we delete the post by referring to the key/id that is created when we post the experience
 	this.deletePost = function(event){
 		console.log(event);
 		var internPostID = event.item.id;
@@ -46,23 +32,6 @@
 
 		internItemRef.remove();
 	}
-
-	//deletePost
-// this.deletePost = function(event) {
-// 		var newInternship = event.item;
-//
-// 		console.log(newInternship);
-//
-// 		var updates = {};
-// 		updates['public/' + newInternship.id] = null;
-// 		updates['users/' + user.uid + '/' + newInternship.id] = null;
-//
-// 		database.ref('internList').update(updates);
-// 	};
-//
-// 	this.on('unmount', function(event) {
-// 		internRef.off('value');
-// 	});
 
 	</script>
 

@@ -37,12 +37,6 @@
     </div>
   </div>
 
-
-
-
-
-
-
     <script>
         var that = this;
         this.internList = [];
@@ -83,22 +77,6 @@ internList
     internshipid
       info
 */
-
-this.deleteInternship = function(event) {
-		var newInternship = event.item;
-
-		console.log(newInternship);
-
-		var updates = {};
-		updates['/internList/' + newInternship.id] = null;
-		// updates['users/' + user.uid + '/' + newInternship.id] = null;
-
-		database.ref('internList').update(updates);
-	};
-
-	this.on('unmount', function(event) {
-		internRef.off('value');
-	});
 
             internRef.child(key).set(newInternship, function() {
               console.log(that);
