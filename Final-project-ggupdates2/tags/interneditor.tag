@@ -23,8 +23,8 @@
       <div class="row">
           <input type="text" ref="internDate" placeholder="Enter length" value="" class="col-md-4"></div><br>
       <div class="row">
-          <input type="text" ref="internTime" placeholder="Enter when" value="" class="col-md-4"></div><br>
-      <textarea ref="commentsIntern" placeholder=" Your comments here" value="" rows="8" cols="80"></textarea>
+          <input type="text" ref="commentsIntern" placeholder="Enter Comment here" value="" class="col-md-4"></div><br>
+      <textarea ref="skillsIntern" placeholder="List skills here" value="" rows="8" cols="80"></textarea>
       <div class="row"></div>
             </div>
 
@@ -56,8 +56,8 @@
                 internPosition: this.refs.positionIntern.value,
                 internCompany: this.refs.companyIntern.value,
                 internLength: this.refs.internDate.value,
-                internDates: this.refs.internTime.value,
                 internComments: this.refs.commentsIntern.value,
+                internSkills: this.refs.skillsIntern.value,
                 createdAt: firebase.database.ServerValue.TIMESTAMP,
 					      modifiedAt: firebase.database.ServerValue.TIMESTAMP
 				};

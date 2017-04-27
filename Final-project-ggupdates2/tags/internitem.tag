@@ -2,17 +2,16 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<pre> Author: { author } <br><strong> Position: </strong> { internPosition } <br> <strong> Company: </strong> { internCompany } <br><strong>  Length of Time at Internship: </strong> { internLength } <br> <strong> Comments:</strong> { internComments } <br> <strong> Skills: </strong> { internSkills }
+			<pre> Author: { author } <br><strong> Position: </strong> { internPosition } <br><strong> Company: </strong> { internCompany } <br><strong> Length of Time at Internship: </strong> { internLength } <br><strong> Comments:</strong> { internComments } <br><strong> Skills: </strong> { internSkills }
 				<!--NEW!!! should this go somewhere else?? why does it keep posting the same comments for each posting-->
 				<comment-editor></comment-editor>
 				<comments-mine></comments-mine>
+				<div class="button">
+					<button class="btn btn-mini btn-danger"  onclick={ deletePost }>DELETE EXPERIENCE</button>
+				</div>
 			 </pre>
 
-			<pre><button class="btn btn-mini btn-danger" onclick={ deletePost }>DELETE EXPERIENCE</button></pre>
 		</div>
-		<div class="checkbox">
-
-	</div>
 	</div>
 
 
@@ -45,6 +44,12 @@
 			margin: 20px;
 			padding: 10px;
 			border: 5px solid grey;
+		}
+
+		.button {
+			margin-top: -7%;
+			margin-bottom: -5%;
+			text-align: right;
 		}
 
 	</style>
