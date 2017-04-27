@@ -8,7 +8,7 @@
 				<comments-mine></comments-mine>
 			 </pre>
 
-			<pre><button class="btn btn-mini btn-danger" onclick={ deletePost }>DELETE POST</button></pre>
+			<pre><button class="btn btn-mini btn-danger" onclick={ deletePost }>DELETE EXPERIENCE</button></pre>
 		</div>
 		<div class="checkbox">
 
@@ -37,21 +37,22 @@
 		}
 		that.update();
 	});
-this.deletePost = function(event) {
-		var newInternship = event.item;
-
-		console.log(newInternship);
-
-		var updates = {};
-		updates['public/' + newInternship.id] = null;
-		updates['users/' + user.uid + '/' + newInternship.id] = null;
-
-		database.ref('internList').update(updates);
-	};
-
-	this.on('unmount', function(event) {
-		internRef.off('value');
-	});
+	//deletePost
+// this.deletePost = function(event) {
+// 		var newInternship = event.item;
+//
+// 		console.log(newInternship);
+//
+// 		var updates = {};
+// 		updates['public/' + newInternship.id] = null;
+// 		updates['users/' + user.uid + '/' + newInternship.id] = null;
+//
+// 		database.ref('internList').update(updates);
+// 	};
+//
+// 	this.on('unmount', function(event) {
+// 		internRef.off('value');
+// 	});
 
 	</script>
 

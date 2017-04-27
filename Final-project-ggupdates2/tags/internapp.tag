@@ -10,6 +10,7 @@
 	</button>
 	<!-- {internshipList} -->
 	<internitem each={ internshipList }> </internitem>
+	
 
 	<interneditor if={ addInternship }></interneditor>
 

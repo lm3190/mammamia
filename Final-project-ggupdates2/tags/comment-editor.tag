@@ -1,7 +1,7 @@
 <comment-editor>
 	<label>Post a Comment</label>
 	<input type="text" class="form-control" ref="comment" placeholder="Enter Comment" onkeypress={ saveComment }><br>
-	<button class="btn btn-primary" onclick={ saveComment }>POST</button>
+	<button class="btn btn-primary" onclick={ saveComment }>COMMENT</button>
 
 	<script>
 		var that = this;
