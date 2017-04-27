@@ -37,6 +37,16 @@
 		}
 		that.update();
 	});
+
+
+	this.deletePost = function(event){
+		console.log(event);
+		var internPostID = event.item.id;
+		var internItemRef = database.ref('internList/' + internPostID);
+
+		internItemRef.remove();
+	}
+
 	//deletePost
 // this.deletePost = function(event) {
 // 		var newInternship = event.item;
