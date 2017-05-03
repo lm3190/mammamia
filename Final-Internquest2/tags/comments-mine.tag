@@ -1,4 +1,5 @@
 <comments-mine>
+
 	<div class="comment" each={ myComments }>
 		<button class="btn btn-mini btn-danger" onclick={ parent.deleteComment }>DELETE</button>
 		<!-- <button class="btn btn-mini {btn-success:!public, btn-warning:public}" onclick={ parent.togglePublic }>{ public ? "UNPUBLISH" : "PUBLISH"}</button> -->
@@ -11,7 +12,7 @@
 		this.myComments = [];
 
 		var database = firebase.database();
-		var myCommentsRef = database.ref('comments/internList/');
+		var myCommentsRef = database.ref('comments/' + this.opts.postid);
 
 		//original code
 		//var myCommentsRef = database.ref('comments/users/' + user.uid);
@@ -59,7 +60,9 @@
 			//original public & private user code
 			//updates['public/' + comment.id] = null;
 			//updates['users/' + user.uid + '/' + comment.id] = null;
-			updates['internList/' + comment.id] = null;
+			updates[that.opts.postid + '/' + comment.id] = null;
+
+			console.log(updates);
 
 			database.ref('comments').update(updates);
 		};

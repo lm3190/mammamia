@@ -6,7 +6,9 @@
 	<script>
 		var that = this;
 		var database = firebase.database();
-		var myCommentsRef = database.ref('comments/internList/');
+		var myCommentsRef = database.ref('comments/' + this.opts.postid);
+
+		console.log('comment-editor', this);
 
 		// This reference is important - see database for architecture
 		//original code
