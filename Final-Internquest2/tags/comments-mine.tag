@@ -3,8 +3,8 @@
 	<div class="comment" each={ myComments }>
 		<button class="btn btn-mini btn-danger" onclick={ parent.deleteComment }>DELETE</button>
 		<!-- <button class="btn btn-mini {btn-success:!public, btn-warning:public}" onclick={ parent.togglePublic }>{ public ? "UNPUBLISH" : "PUBLISH"}</button> -->
-		&nbsp;&nbsp;<strong>{ user.displayName }</strong> :
-		<span>{ message }</span>
+		<!-- <strong>{ user.displayName }</strong> : -->
+		&nbsp;&nbsp;<span>{ message }</span>
 	</div>
 
 	<script>
