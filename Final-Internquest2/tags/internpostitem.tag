@@ -11,20 +11,22 @@
 		</tr>
 		</thead> -->
 		<tbody class="c-table__body">
-		<tr class="c-table__row">
-			<td class="c-table__cell">{ internPosition }</td>
-			<td class="c-table__cell">{ internCompany }</td>
-			<!--
+			<tr class="c-table__row">
+				<td class="c-table__cell">{ internPosition }</td>
+				<td class="c-table__cell">{ internCompany }</td>
+				<!--
 			This is how we can link content from other columns (in this example, the text that fills in the company name { internCompany }, then the lmgtfy.com link will search for that text (the text we inputted) when we click on the LMGTFY link - NOTE TO SELF could be helpful for search function in general (web))
 			<td class="c-table__cell"><a href="http://lmgtfy.com/?q={ internCompany }">LMGTFY</a></td> -->
-			<td class="c-table__cell"><a href= " {internUrl} "> More Info</a></td>
-			<td class="c-table__cell">  { dateFormatted }</td>
-			<!-- <td class="c-table__cell"> { new Date (modifiedAt) }</td> -->
-		</tr>
+				<td class="c-table__cell">
+					<a href=" {internUrl} ">
+						More Info</a>
+				</td>
+				<td class="c-table__cell">
+					{ dateFormatted }</td>
+				<!-- <td class="c-table__cell"> { new Date (modifiedAt) }</td> -->
+			</tr>
 		</tbody>
 	</table>
-
-
 
 	<!-- <div class="container">
 	Author: { author }
@@ -40,26 +42,19 @@
 
 		var d = new Date(this.createdAt);
 
-
 		this.dateFormatted = d.toUTCString();
-		// look at code here: https://www.w3schools.com/jsref/jsref_obj_date.asp
-
-		// this.dateFormatted = toString(d.getMonth()) + d.getDate() + ", " + d.getFullYear();
-
-
+		// look at code here: https://www.w3schools.com/jsref/jsref_obj_date.asp this.dateFormatted = toString(d.getMonth()) + d.getDate() + ", " + d.getFullYear();
 	</script>
 
 	<style>
 
-		:scope
+		:scope pre {
 
-		pre {
-
-			  display: block;
-			  max-width: 700px;
+			display: block;
+			max-width: 700px;
 			margin: 20px;
 			border: 5px solid grey;
-			}
+		}
 
 	</style>
 </internpostitem>

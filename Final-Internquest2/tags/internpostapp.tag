@@ -1,9 +1,6 @@
 <internpostapp>
 
-<!-- <h2><img src={ userPhotoURL }> Hi { user.displayName } - MEMBERS ONLY</h2>
-<p>This page is showing because user is defined through the auth callback.</p> -->
-
-<br>
+	<br>
 
 	<button type="button" class="btn btn-success" name="button" onclick={ toggleeditor }>Add a Posting
 	</button>
@@ -11,13 +8,13 @@
 	<table class="c-table c-table--clickable">
 		<caption class="c-table__caption"></caption>
 		<thead class="c-table__head">
-		<tr class="c-table__row c-table__row--heading">
-			<th class="c-table__cell">Position/Title</th>
-			<th class="c-table__cell">Company</th>
-			<th class="c-table__cell">More Info</th>
-			<th class="c-table__cell">Last Posted</th>
-			<!-- <th class="c-table__cell">Last Modified</th> -->
-		</tr>
+			<tr class="c-table__row c-table__row--heading">
+				<th class="c-table__cell">Position/Title</th>
+				<th class="c-table__cell">Company</th>
+				<th class="c-table__cell">More Info</th>
+				<th class="c-table__cell">Last Posted</th>
+
+			</tr>
 		</thead>
 	</table>
 
@@ -35,8 +32,8 @@
 
 		var internRef = firebase.database().ref().child('internPosting');
 
-		internRef.on('value', function(snapshot) {
-		  var data = snapshot.val();
+		internRef.on('value', function (snapshot) {
+			var data = snapshot.val();
 			console.log("snapshot.val");
 			console.log(snapshot.val());
 			var dataAry = Object.values(data);
@@ -45,8 +42,6 @@
 		});
 
 		console.log('xxx');
-
-
 
 		this.addInternship = false;
 
@@ -58,8 +53,6 @@
 			that.addInternship = false;
 			that.update();
 		};
-
-		// this.internlist = []; //equvi to todosdata
 	</script>
 
 	<style>
