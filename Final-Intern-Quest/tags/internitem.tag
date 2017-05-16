@@ -5,6 +5,9 @@
 				<!-- not fully functional, included stars to display expected behavior, but still need to work on connecting it with the interneditor.tag -->
 				<star></star> <star></star> <star></star> <star></star> <star></star>
 
+				<star-rating></star-rating>
+				<!-- <star-rating stars={ 3 } readonly={ true }></star-rating> -->
+
 				<comment-editor postid={ id }></comment-editor>
 				<comments-general postid={ id }></comments-general>
 				<div class="button">
@@ -17,6 +20,7 @@
 
 
 	<script>
+	console.log('internItem', this);
 	// console.log('xxx');
 	//trying to add comment box here - not sure if it's in the correct tag
 	var that = this;
